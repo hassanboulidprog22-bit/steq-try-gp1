@@ -3,6 +3,6 @@
   #functions = "netlify/functions"
   publish = "dist"
   [[redirect]]
-  from = "/op"
-  to = "/np" #newpage
+  from = "/"
+  to = "/local.htm" #newpage
   status = 301
