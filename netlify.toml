@@ -5,4 +5,4 @@
   [[redirect]]
   from "/op"
   to "/np" #newpage
-  status = 301
+  status 301
