@@ -1,7 +1,8 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "echo 'No build needed'"
+  publish = "."
+  function = "netlify/functions"
   [[redirect]]
-  from = ""
-  to = "/local.htm" #newpage
-  status = 301
+  from = "/"
+  to = "/netlify/functions/index" #newpage
+  status = 200
