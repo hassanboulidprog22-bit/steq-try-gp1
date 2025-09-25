@@ -4,5 +4,5 @@
   functions = "netlify/functions"
   [[redirect]]
   from = "/"
-  to = "/netlify/functions/index" #newpage
+  to = "/.netlify/functions/index" #newpage
   status = 200
