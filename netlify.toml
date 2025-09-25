@@ -1,0 +1,8 @@
+[build]
+  command = "npm run generate"
+  #functions = "netlify/functions"
+  publish = "dist"
+  [[redirect]]
+  from "/op"
+  to "/np" #newpage
+  status = 301
