@@ -3,6 +3,6 @@
   publish = "."
   function = "netlify/functions"
   [[redirect]]
-  from = "/"
-  to = "/netlify/functions/index" #newpage
+  to = "/"
+  from = "/netlify/functions/index" #newpage
   status = 200
