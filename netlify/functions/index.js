@@ -7,7 +7,7 @@ exports.handler = async function(event, context) {
     <html lang="en">
     <head>
       <meta charset="UTF-8" />
-      <title>Welcome ${username}</title>
+      <title>Welcome L_${username}</title>
     </head>
     <body>
       <h1>Hello, ${username}!</h1>
